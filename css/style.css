@@ -257,7 +257,7 @@ header ul.nav li ul li a {
 
 .navbar .nav a:hover {
 	background:none;
-	color: #14A085 !important;
+	color: #003668 !important;
 }
 
 .navbar .nav > .active > a,.navbar .nav > .active > a:hover {
@@ -297,7 +297,7 @@ header ul.nav li ul li ul {
   content:none;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: #14A085;
+color: #003668;
 }
 
 
@@ -578,13 +578,13 @@ section.callaction {
 ==================================== */
 
 #inner-headline{
-	background: #14A085;
+	background: #003668;
 	position:relative;
 	margin:0;
 	padding:0;
 	color:#fefefe;
 	/* margin: 15px; */
-	border-top: 10px solid #11967C;
+	border-top: 5px solid #e6002d;
 }
 
 
@@ -802,7 +802,7 @@ form#commentform textarea {
 	height: 91%;
 	opacity: 0.50;
 	filter: alpha(opacity=80);
-	background: #14A085;
+	background: #003668;
 }
 
 .item-thumbs .hover-wrap .overlay-img-thumb {
@@ -838,7 +838,7 @@ margin-right: 15px;
 ul.portfolio-categ li a{
 	display:block;
 	padding: 8px 20px;
-	color: #14A085;
+	color: #003668;
 }
 ul.portfolio-categ li.active{
 
@@ -1009,7 +1009,7 @@ ul.link-list li{
 	list-style:none;
 }
 footer{
-background: #14A085;
+background: #003668;
 }
 footer ul.link-list li a{
 	color: #FFFFFF;
@@ -1253,7 +1253,7 @@ background: #F9F9F9;
 .pricing-box-item .pricing-terms  h6 {
 	font-style:italic;
 	margin-top:10px;
-	color: #14A085;
+	color: #003668;
 	font-size: 22px;
 	font-family:'Noto Serif', serif;
 }
@@ -1323,6 +1323,7 @@ footer .widget .flickr_badge img {
 
   
 footer{
+	
 	padding:50px 0 0 0;
 	color:#f8f8f8;
 }
@@ -1364,7 +1365,7 @@ ul.social-network li {
 	padding:0;
 	padding-top:30px;
 	margin:20px 0 0 0;
-	background: #14A085;
+	background: #003668;
 }
 
 #sub-footer p{
