@@ -1515,7 +1515,7 @@ article img.pull-right, article .align-right{
 
 
 /*  Media queries 
-============================= */
+============================= 
 
 @media (min-width: 768px) and (max-width: 979px) {
 
@@ -1529,7 +1529,7 @@ article img.pull-right, article .align-right{
 		border-bottom: none;
 	}
 	.navbar-brand img {
-		max-width: 250px; /* 원하는 로고 크기로 설정하세요 */
+		max-width: 250px; 
 		height: auto; 
 	}
 	.navbar-header {
@@ -1567,6 +1567,7 @@ article img.pull-right, article .align-right{
 		margin:0 20px 0 0;
 	}	
 }
+*/
 
 @media (max-width: 767px) {
 
