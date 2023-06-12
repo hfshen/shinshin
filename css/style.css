@@ -89,7 +89,7 @@ header .navbar {
 }
 
 .navbar-default .navbar-brand{
-color: #61B331;
+color: #4d13d5;
 }
 
 header .navbar-collapse  ul.navbar-nav {
@@ -358,20 +358,20 @@ right:0px;
 margin-bottom:50px;
 }
 .c1{
-border: #ed5441 1px solid;
-background:#ed5441;
+border: #333777 1px solid;
+background:#333777;
 }
 .c2{
-border: #D867B2 1px solid;
-background: #D867B2;
+border: #394f92 1px solid;
+background: #394f92;
 }
 .c3{
-border: #61B331 1px solid;
-background: #4BC567;
+border: #4c73b3 1px solid;
+background: #4c73b3;
 }
 .c4{
-border: #609cec 1px solid;
-background: #26AFF0;
+border: #5e85bb 1px solid;
+background: #5e85bb;
 }
 .skill-home .icons {
 padding: 33px 0 0 0;
