@@ -13,6 +13,7 @@
 	<link href="css/jcarousel.css" rel="stylesheet" />
 	<link href="css/flexslider.css" rel="stylesheet" />
 	<link href="css/style.css" rel="stylesheet" />
+    
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -142,7 +143,34 @@
 			</div>
 		</section>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+		<script>
+			$(document).ready(function() {
+				$("#submit-btn").click(function() {
+					var name = $("#name").val();
+					var email = $("#email").val();
+					var subject = $("#subject").val();
+					var message = $("#message").val();
+		
+					$.ajax({
+						url: 'YOUR_WEB_APP_URL',
+						type: 'POST',
+						data: JSON.stringify({
+							name: name,
+							email: email,
+							subject: subject,
+							message: message
+						}),
+						contentType: 'application/json',
+						success: function(response) {
+							console.log("Success");
+						},
+						error: function(error) {
+							console.log("Error: ", error);
+						}
+					});
+				});
+			});
+			</script>
 		<div id="footer"></div>
 		<script>
 			$(function () {
