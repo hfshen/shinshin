@@ -11,8 +11,8 @@
 // const logger = require("firebase-functions/logger");
 
 const functions = require('firebase-functions');
-// const cors = require('cors')({origin: true}); // 모든 출처에서의 요청을 허용
-const cors = require('cors')({origin: 'https://hlint.kr'});
+const cors = require('cors')({origin: true}); // 모든 출처에서의 요청을 허용
+// const cors = require('cors')({origin: 'https://hlint.kr'});
 
 exports.myFunction = functions.https.onRequest((request, response) => {
   cors(request, response, () => { // CORS 미들웨어를 사용
