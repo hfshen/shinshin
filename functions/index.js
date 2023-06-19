@@ -10,12 +10,17 @@
 // const {onRequest} = require("firebase-functions/v2/https");
 // const logger = require("firebase-functions/logger");
 
-const functions = require("firebase-functions");
+const functions = require('firebase-functions');
+// const cors = require('cors')({origin: true}); // 모든 출처에서의 요청을 허용
+const cors = require('cors')({origin: 'https://hlint.kr'});
 
 exports.myFunction = functions.https.onRequest((request, response) => {
-  // request.body에 있는 데이터를 받아서 처리하는 코드를 여기에 작성하세요.
-  response.send("Success");
+  cors(request, response, () => { // CORS 미들웨어를 사용
+    // 함수의 나머지 부분
+    response.send("Hello from Firebase!");
+  });
 });
+
 // Create and deploy your first functions
 // https://firebase.google.com/docs/functions/get-started
 
