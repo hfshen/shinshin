@@ -145,7 +145,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script>
 			$(document).ready(function() {
-				$("#submit-btn").click(function() {
+				$("#contact-form").on("submit", function(event) {
+
 					event.preventDefault();
 
 					var name = $("#name").val();
